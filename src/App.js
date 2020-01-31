@@ -149,38 +149,6 @@ const App = () => {
           </Grid>
         </form>
       </div>
-      <div className={classes.table}>
-        <Typography variant="subtitle1">
-          Last Notifications Sent (Example):
-        </Typography>
-        <Table />
-      </div>
-      <div className={classes.icons}>
-        <Tooltip title="See Source Code">
-          <IconButton>
-            <Link
-              color="inherit"
-              target="__blank"
-              rel="noopener"
-              href="https://github.com/jose-donato/expo-notifications-tool"
-            >
-              <GitHubIcon />
-            </Link>
-          </IconButton>
-        </Tooltip>
-        <Tooltip title="Questions? DM me">
-          <IconButton>
-            <Link
-              color="inherit"
-              target="__blank"
-              rel="noopener"
-              href="https://twitter.com/whynot1__"
-            >
-              <TwitterIcon />
-            </Link>
-          </IconButton>
-        </Tooltip>
-      </div>
     </Container>
   );
 };
