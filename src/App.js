@@ -90,7 +90,7 @@ const App = () => {
       <CssBaseline />
       <div className={classes.paper}>
         <Typography component="h1" variant="h5">
-          Energy Chamber of Trindiad and Toabgo Notifications Tool
+          Energy Chamber of Trinidad and Toabgo Notifications Tool
         </Typography>
         <Avatar className={classes.avatar}>
           <Notifications />
