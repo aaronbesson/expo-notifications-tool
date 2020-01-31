@@ -19,7 +19,7 @@ import Link from "@material-ui/core/Link";
 import axios from "axios";
 import Table from "./components/table";
 
-const NOTIFICATIONS_SERVER = "https://easy-soup.glitch.me/message";
+const NOTIFICATIONS_SERVER = "https://caring-macaw-c5qcjnfg3w.glitch.me/message";
 
 const useStyles = makeStyles(theme => ({
   "@global": {
